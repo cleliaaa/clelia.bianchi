@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="main">
+    <nav class="responsive-menu">
+
+    </nav>
+    <header>
+      <div class="header-title">clélia bianchi</div>
+      <nav>
+        <ul>
+          <li><a href="index.html#a-propos">A propos</a><span class="bottom-line"></span></li>
+          <li><a href="images/CV Clélia Bianchi.pdf">CV PDF</a><span class="bottom-line"></span></li>
+          <li><a href="index.html#portfolio">Portfolio</a><span class="bottom-line"></span></li>
+          <li><a href="index.html#blognav">Blog</a><span class="bottom-line"></span></li>
+        </ul>
+      </nav>
+      <div class="side-header">
+        <div>Contact</div>
+        <a class="linkedin-btn" href="https://www.linkedin.com/in/cl%C3%A9lia-bianchi-ventabren/"><ion-icon
+            name="logo-linkedin"></ion-icon></a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <section class="section-1">
+      <div>
+        <div class="info">
+          <h1>
+            <span>Hi 👋</span><span>Je suis</span><span>Clélia Bianchi.</span>
+          </h1>
+          <p>
+            Développeuse web junior, je suis passionnée par le développement web
+            et la création de sites internet. Je suis actuellement en formation
+            chez OpenClassrooms pour devenir développeuse web.
+          </p>
+          <a class="contact-btn" href="#">Contactez-moi</a>
+        </div>
+        <div class="img-ctn">
+          <img src="./assets/img/clelia.jpg" alt="">
+        </div>
+      </div>
+      <a href="#section-2" class="scroll-ctn">
+        <p>Pour mieux me connaître</p>
+        <p>Veuillez scroller</p>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+    <section class="section-2" id="section-2">
+      <div class="section-2-ctn">
+        <div class="title-ctn">
+          <h2>Mes expériences professionnelles</h2>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-ctn">
+          <div class="swiper mySwiper" id="exp-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/img/logo_ikks.png" alt="">
+                <footer>
+                  <div>IKKS : Conseillère de vente</div>
+                  <div>Octobre 2023 - aujoud'hui</div>
+                  <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae
+                    iure eaque tenetur accusamus consequatur dolorem maiores mollitia totam eius soluta, culpa
+                    provident,
+                    sit similique, vitae quaerat suscipit natus! Reprehenderit!</div>
+                </footer>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/intermarche.jpg" alt="">
+                <footer>
+                  <div>IKKS : Conseillère de vente</div>
+                  <div>Octobre 2023 - aujoud'hui</div>
+                  <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae
+                    iure eaque tenetur accusamus consequatur dolorem maiores mollitia totam eius soluta, culpa
+                    provident,
+                    sit similique, vitae quaerat suscipit natus! Reprehenderit!</div>
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-button-next-1"></div>
+          <div class="swiper-button-prev swiper-button-prev-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3">
+      <div class="title-ctn">
+        <div>En découvrir</div>
+        <h2>DAVANTAGE</h2>
+      </div>
+      <div class="blog-ctn">
+        <div class="blog-card">
+          <div class="img-ctn">
+            <img src="./assets/img/blog1.jpg" alt="">
+          </div>
+          <footer>
+            <div class="header">
+              <div class="category">Blog</div>
+              <span class="blog-separator"></span>
+              <div class="date">Octobre 2023 - aujoud'hui</div>
+            </div>
+            <div class="title">Moi et ma super amie 1</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem
+              nostrum vero, libero cumque velit.</div>
+          </footer>
+        </div>
+        <div class="blog-card">
+          <div class="img-ctn">
+            <img src="./assets/img/blog2.jpg" alt="">
+          </div>
+          <footer>
+            <div class="header">
+              <div class="category">Blog</div>
+              <span class="blog-separator"></span>
+              <div class="date">Octobre 2023 - aujoud'hui</div>
+            </div>
+            <div class="title">Moi et ma super amie 2</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem
+              nostrum vero, libero cumque velit.</div>
+          </footer>
+        </div>
+        <div class="blog-card">
+          <div class="img-ctn">
+            <img src="./assets/img/blog3.jpeg" alt="">
+          </div>
+          <footer>
+            <div class="header">
+              <div class="category">Blog</div>
+              <span class="blog-separator"></span>
+              <div class="date">Octobre 2023 - aujoud'hui</div>
+            </div>
+            <div class="title">Moi et ma super amie 3</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, necessitatibus
+              nesciunt accusamus aperiam nemo illo!</div>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="section-2-ctn">
+        <!-- Swiper -->
+        <div class="swiper-ctn">
+          <div class="swiper mySwiper2" id="exp-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/img/logo_ikks.png" alt="">
+                <footer>
+                  <div>IKKS : Conseillère de vente</div>
+                  <div>Octobre 2023 - aujoud'hui</div>
+                  <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae
+                    iure eaque tenetur accusamus consequatur dolorem maiores mollitia totam eius soluta, culpa
+                    provident, sit similique, vitae quaerat suscipit natus! Reprehenderit!</div>
+                </footer>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/intermarche.jpg" alt="">
+                <footer>
+                  <div>IKKS : Conseillère de vente</div>
+                  <div>Octobre 2023 - aujoud'hui</div>
+                  <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis molestiae
+                    iure eaque tenetur accusamus consequatur dolorem maiores mollitia totam eius soluta, culpa
+                    provident, sit similique, vitae quaerat suscipit natus! Reprehenderit!</div>
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-button-next-2"></div>
+          <div class="swiper-button-prev swiper-button-prev-2"></div>
+        </div>
+        <div class="title-ctn">
+          <h2>Mes formations</h2>
+        </div>
+      </div>
+      <footer>
+        <a class="contact-btn" href="#">Contactez moi</a>
+        <div class="cv-ctn">
+          <a class="cv-btn" href="./assets/file/cv.pdf" target="_blank">Voir mon cv pdf</a>
+          <span class="bottom-line"></span>
+        </div>
+      </footer>
+    </section>
+
+    <section class="section-4">
+      <div class="info-ctn">
+        <div class="title-ctn">
+          <h2>Mes projets</h2>
+        </div>
+        <div class="info">
+          <p>
+            Vous avez un projet de site web ou vous souhaitez simplement discuter
+            de votre projet ? N'hésitez pas à me contacter.
+          </p>
+          <a class="contact-btn" href="#">Contact</a>
+        </div>
+      </div>
+      <div class="slider-ctn">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="slide" id="vimtails">
+              <footer>
+                <div>Vimtails</div>
+              </footer>
+            </div>
+            <div class="slide" id="shelter">
+              <footer>
+                <div>Shelter Box</div>
+              </footer>
+            </div>
+            <div class="slide" id="adidas">
+              <footer>
+                <div>Adidas</div>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="controls-ctn">
+          <div class="control left"><ion-icon name="chevron-back-outline"></ion-icon></div>
+          <div class="control right"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="left-side">
+        <div class="title">
+          <span>Clélia</span>
+          <span>Bianchi</span>
+        </div>
+        <p>Je recherche une alternance pour 2024, n'attendez plus et <span class="primary">adoptez-moi</span> !</p>
+      </div>
+      <div class="right-side">
+        <a href="tel:0783737667" class="contact-info"><ion-icon name="call"></ion-icon><span>07 83 73 76 67</span></a>
+        <a href="mailto:clelia.bianchi@gmail.com" class="contact-info mail"><ion-icon name="mail"></ion-icon><span>clelia.bianchi@gmail.com</span></a>
+        <div class="cr">©2024 clelialec</div>
+      </div>
+    </footer>
+  </div>
+  <div class="test-ctn">
+    <div class="test7">Bonjour je suis clélia</div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next-1",
+        prevEl: ".swiper-button-prev-1",
+      },
+    });
+
+    var swiper2 = new Swiper(".mySwiper2", {
+      navigation: {
+        nextEl: ".swiper-button-next-2",
+        prevEl: ".swiper-button-prev-2",
+      },
+    });
+
+    var swiper3 = new Swiper(".mySwiper3", {
+      navigation: {
+        nextEl: ".swiper-button-next-3",
+        prevEl: ".swiper-button-prev-3",
+      },
+    });
+  </script>
+  <!-- Ionic Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
